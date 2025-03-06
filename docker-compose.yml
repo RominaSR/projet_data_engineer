@@ -1,0 +1,17 @@
+version: '3'
+
+services:
+  python_app:
+    build: .
+    volumes:
+      - .:/app
+    depends_on:
+      - sqlite_db
+
+  sqlite_db:
+    image: nouchka/sqlite3
+    volumes:
+      - sqlite_data:/var/lib/sqlite
+
+volumes:
+  sqlite_data:
