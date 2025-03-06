@@ -74,7 +74,11 @@ Les analyses SQL permettent d'obtenir :
 ---
 
 ## 🎥 Démonstration vidéo
-📌 **Lien vers la démonstration YouTube :** [Regarder ici](https://youtu.be/BvN35WiO8q0)
+
+[![Voir la démonstration](https://img.youtube.com/vi/BvN35WiO8q0/maxresdefault.jpg)](https://youtu.be/BvN35WiO8q0)
+
+📌 **Cliquez sur l'image pour voir la démonstration sur YouTube.**
+
 
 
 ---
