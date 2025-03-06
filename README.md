@@ -57,9 +57,16 @@ SELECT * FROM resultats_ventes;
 
 ## 📊 Schémas
 ### **1️⃣ Architecture du projet**
+Le schéma ci-dessous représente l'architecture du projet. Il montre comment les différents composants interagissent :
+- Docker orchestre les services Python et SQLite.
+- Le service Python récupère les données des fichiers CSV et les insère dans la base de données SQLite.
+- Le service SQLite exécute les requêtes SQL et stocke les résultats des analyses dans la table resultats_ventes.
 ![Schéma de l'architecture](images/Schéma_architecture.png)
 
 ### **2️⃣ Modèle relationnel de la base de données**
+Ce schéma représente la structure de la base de données et les relations entre les tables :
+- La table ventes est au centre, reliant les informations des produits et des magasins.
+- Les résultats des analyses SQL sont stockés dans la table resultats_ventes.
 ![Schéma de la base de données](images/Schéma_données.png)
 
 
