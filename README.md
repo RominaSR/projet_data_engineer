@@ -1,4 +1,4 @@
-# Projet data engineering - Python + SQLite + Docker
+# Data engineering - Python + SQLite + Docker
 
 ## 📌 Description du projet
 Ce projet consiste à analyser les ventes d'une PME en utilisant Python, SQLite et Docker. L'objectif est d'automatiser le processus d'importation, de transformation et d'analyse des données de ventes à partir de fichiers CSV.
